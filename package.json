@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "rollup -c && chmod a+x ./bin/jfq.js",
-    "prepublish": "npm run build",
+    "prepack": "npm run build",
     "lint": "standard --verbose --fix",
     "posttest": "ls -1 *.md | xargs -t -n 1 markdown-link-check",
     "prepublishOnly": "npm run build",
