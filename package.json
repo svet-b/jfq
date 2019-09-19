@@ -7,8 +7,8 @@
     "node": ">=6"
   },
   "scripts": {
-    "build_xx": "rollup -c && chmod a+x ./bin/jfq.js",
-    "preinstall": "rollup -c && chmod a+x ./bin/jfq.js",
+    "build": "rollup -c && chmod a+x ./bin/jfq.js",
+    "prepublish": "npm run build",
     "lint": "standard --verbose --fix",
     "posttest": "ls -1 *.md | xargs -t -n 1 markdown-link-check",
     "prepublishOnly": "npm run build",
