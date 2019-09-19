@@ -18,9 +18,6 @@ parts:
     nodejs-package-manager: npm
     source-type: local
     source: .
-    build-environment:
-      - npm_config_unsafe_perm: 'true'
-
 
 apps:
   jfq:
