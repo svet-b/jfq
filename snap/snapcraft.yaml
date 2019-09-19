@@ -17,7 +17,7 @@ parts:
     plugin: nodejs
     nodejs-package-manager: npm
     source-type: local
-    source: ./snap
+    source: .
 
 apps:
   jfq:
