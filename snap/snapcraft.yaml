@@ -1,0 +1,24 @@
+name: jfq
+version: git
+summary: jfq command line tool for JSONata
+description: |
+    Command line tool for JSONata parsing
+
+grade: stable
+confinement: strict
+
+base: core18
+
+architectures:
+  - build-on: amd64
+
+parts:
+  jfq:
+    plugin: nodejs
+    nodejs-package-manager: npm
+    source-type: local
+    source: .
+
+apps:
+  jfq:
+    command: jfq
