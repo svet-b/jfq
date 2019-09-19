@@ -19,7 +19,7 @@ parts:
     source-type: local
     source: .
     build-environment:
-      - npm_config_unsafe_perm: true
+      - npm_config_unsafe_perm: 'true'
 
 
 apps:
