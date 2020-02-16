@@ -1,5 +1,5 @@
 name: jfq
-version: '1.0'
+version: '1.1'
 summary: jfq command line tool for JSONata
 description: |
     Command line tool for JSONata parsing
@@ -10,7 +10,7 @@ confinement: strict
 base: core18
 
 architectures:
-  - build-on: amd64
+#  - build-on: amd64
   - build-on: armhf
 
 parts:
