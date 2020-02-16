@@ -11,6 +11,7 @@ base: core18
 
 architectures:
   - build-on: amd64
+  - build-on: armhf
 
 parts:
   jfq:
