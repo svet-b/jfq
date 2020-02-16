@@ -1,5 +1,5 @@
 name: jfq
-version: git
+version: '1.0'
 summary: jfq command line tool for JSONata
 description: |
     Command line tool for JSONata parsing
